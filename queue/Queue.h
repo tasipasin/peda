@@ -20,7 +20,9 @@ public:
     void remove();
     bool empty();
     bool full();
+    // Imprime a fila
     void printQueue();
+    // Executa inserção por prioridade descendente
     void insert_desc(DataType element);
 };
 #endif
