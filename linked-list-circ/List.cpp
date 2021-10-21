@@ -82,10 +82,10 @@ void List::print()
     cout << endl;
 }
 
-void List::next() {
+/**
+ * Passa para a próxima posição da lista.
+ */
+void List::next()
+{
     list = list->prox;
-}
-
-int List::getNumNodes(){
-    return this->numNodes;
 }

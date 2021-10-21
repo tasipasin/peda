@@ -22,6 +22,5 @@ public:
     bool empty();            // true, se lista vazia
     void print();            // percorre a lista mostrando seus elem. na tela
     void next();
-    int getNumNodes();
 };
 #endif
